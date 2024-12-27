@@ -1,0 +1,246 @@
+/* Custom styles for the table and icons */
+.custom-table {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f8f9fa;
+}
+
+.custom-table th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+.custom-table td {
+    background-color: #ffffff;
+    color: #333;
+    padding: 12px;
+}
+
+.custom-table tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+.custom-table tr:hover {
+    background-color: #e0e0e0;
+}
+
+.service-item {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.service-item i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.service-item:hover {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.service-item:hover i {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+.room-info img {
+    transition: transform 0.3s ease;
+}
+
+.room-info img:hover {
+    transform: scale(1.05);
+}
+
+.booking-form {
+    background-color: #f8f9fa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.room-info h4,
+.room-info h5 {
+    color: #333;
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Custom styles to ensure the image fits perfectly with reduced height */
+.custom-image {
+    width: 100%;
+    height: 200px; /* Reduced height for better fit */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .room-info {
+        height: auto;
+    }
+
+    .custom-image {
+        height: 150px;
+    }
+
+    .service-item {
+        font-size: 14px;
+    }
+
+    .booking-form {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .room-info {
+        padding: 15px;
+    }
+
+    .custom-image {
+        height: 130px;
+    }
+}
+/* Custom table and service item styling */
+.custom-table {
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f8f9fa;
+}
+
+.custom-table th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.custom-table td {
+    background-color: #ffffff;
+    color: #333;
+    padding: 12px;
+}
+
+.custom-table tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+.custom-table tr:hover {
+    background-color: #e0e0e0;
+}
+
+.service-item {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    gap: 12px; /* Adds space between icon and text */
+}
+
+.service-item i {
+    font-size: 20px;
+}
+
+.service-item:hover {
+    color: #007bff;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.service-item:hover i {
+    transform: scale(1.2);
+}
+
+.room-info img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.room-info img:hover {
+    transform: scale(1.05);
+    filter: brightness(0.9);
+}
+
+.booking-form {
+    background-color: #f8f9fa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+.booking-form:hover {
+    transform: translateY(-5px);
+}
+
+.room-info h4,
+.room-info h5 {
+    color: #333;
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Custom styles to ensure the image fits perfectly with reduced height */
+.custom-image {
+    width: 100%;
+    height: 200px; /* Adjusted height for a compact view */
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .room-info {
+        height: auto;
+    }
+
+    .custom-image {
+        height: 150px;
+    }
+
+    .service-item {
+        font-size: 14px;
+    }
+
+    .booking-form {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .room-info {
+        padding: 15px;
+    }
+
+    .custom-image {
+        height: 130px;
+    }
+}

@@ -1,0 +1,70 @@
+/* Custom Styles for AllRooms Component */
+.room-title {
+    font-size: 2rem;
+    color: #4caf50; /* Green color for title */
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.room-title .mr-2 {
+    font-size: 2rem;
+}
+
+.room-count p {
+    font-size: 1.2rem;
+    color: #555;
+    font-weight: bold;
+}
+
+.filter-section {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.filter-input {
+    border-radius: 30px;
+    border: 1px solid #4caf50;
+    padding: 10px 15px;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.filter-input:focus {
+    outline: none;
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.room-table th {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+}
+
+.room-table td {
+    padding: 10px;
+}
+
+.room-table tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.room-table td, .room-table th {
+    text-align: center;
+}
+
+/* Loading Spinner Style */
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+/* Error Message Styling */
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border-radius: 10px;
+}

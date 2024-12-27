@@ -1,0 +1,77 @@
+/* RoomCard.css */
+.room-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px; /* Slightly round corners */
+}
+
+.room-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.room-type, .room-price, .hotel-name, .hotel-location, .text-muted {
+  display: flex;
+  align-items: center;
+}
+
+.room-type i, .room-price i, .hotel-name i, .hotel-location i, .text-muted i {
+  margin-right: 8px;
+}
+
+.room-price {
+  font-size: 1.1rem;
+}
+
+.hotel-name {
+  font-size: 1rem;
+}
+
+.hotel-location {
+  font-size: 0.9rem;
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.text-warning {
+  color: #f0ad4e !important;
+}
+
+.text-success {
+  color: #28a745 !important;
+}
+
+.text-primary {
+  color: #007bff !important;
+}
+
+.text-danger {
+  color: #dc3545 !important;
+}
+
+.text-secondary {
+  color: #6c757d !important;
+}
+/* RoomCard.css */
+.discount-offer {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #dc3545; /* Red color for discount */
+}
+
+.discount-offer i {
+  margin-right: 8px;
+}

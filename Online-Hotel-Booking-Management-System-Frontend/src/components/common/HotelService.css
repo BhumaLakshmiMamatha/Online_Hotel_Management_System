@@ -1,0 +1,71 @@
+.services-section {
+    background-color: #ffffff; /* Clean white background */
+    padding: 40px 20px;
+  }
+  
+  .service-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .hotel-color {
+    color: #0078d7; /* A softer blue for better readability */
+  }
+  
+  .icon-circle {
+    width: 65px;
+    height: 100px;
+    background-color: #f2f2f2; /* Light gray circle */
+    color: #0078d7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .service-icon {
+    font-size: 1.5rem;
+  }
+  
+  .service-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    height: 100%; /* Ensures equal height for all cards */
+    display: flex; /* Flexbox for vertical alignment */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: space-between; /* Ensure even spacing */
+    align-items: center; /* Center align content */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    padding: 20px; /* Inner spacing */
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-card .card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333333;
+    text-align: center;
+  }
+  
+  .service-card .card-text {
+    font-size: 0.95rem;
+    color: #666666;
+    text-align: center;
+  }
+  
+  .text-muted {
+    font-size: 0.9rem;
+    color: #999999;
+  }
+  
+  hr {
+    border-top: 1px solid #e0e0e0;
+    margin: 30px 0;
+  }
+  

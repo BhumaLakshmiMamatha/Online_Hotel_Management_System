@@ -1,0 +1,46 @@
+/* Hover effect for hotel cards with background color */
+.hover-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    background: linear-gradient(to bottom, #f8f9fa 0%, #e2e6ea 100%);
+  }
+  
+  /* Card styling */
+  .card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Adjust carousel background */
+  .carousel-fade {
+    background-color: #f1f3f5;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Pagination button colors */
+  .pagination button {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+  }
+  
+  .pagination button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  /* Modify spinner for loading */
+  .spinner-border {
+    color: #007bff !important;
+  }
+  
+
+  /* 
+  
+  */
+
+
+
+  

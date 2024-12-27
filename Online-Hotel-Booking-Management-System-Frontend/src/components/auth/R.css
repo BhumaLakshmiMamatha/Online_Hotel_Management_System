@@ -1,0 +1,28 @@
+/* CSS for square radio buttons */
+.square-radio {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #007bff;
+    border-radius: 4px; /* Square shape */
+    position: relative;
+  }
+  
+  .square-radio:checked {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .square-radio:checked::before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 2px; /* Inner circle for checked state */
+  }
+  

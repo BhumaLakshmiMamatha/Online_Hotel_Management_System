@@ -1,0 +1,24 @@
+.table-custom {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.table-custom th, .table-custom td {
+    text-align: center;
+    padding: 12px;
+}
+
+.table-custom th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+
+.page-button {
+    margin: 0 5px;
+}
+
+.page-button.active {
+    background-color: #007bff;
+    color: white;
+}

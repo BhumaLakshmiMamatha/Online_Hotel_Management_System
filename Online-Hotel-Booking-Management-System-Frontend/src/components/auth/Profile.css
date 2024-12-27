@@ -1,0 +1,18 @@
+.hover-shadow:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  .table-dark th {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  

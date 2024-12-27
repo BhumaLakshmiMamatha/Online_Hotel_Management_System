@@ -1,0 +1,78 @@
+/* General Styling */
+.hotel-color {
+    color: #ff6347; /* Tomato color for headers */
+  }
+  
+  .room-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff; /* Bright blue for price */
+  }
+  
+  .card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-radius: 15px; /* Round card corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* Lift card on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+  }
+  
+  .card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #343a40; /* Dark gray */
+    transition: color 0.3s ease;
+  }
+  
+  .card-title:hover {
+    color: #ff6347; /* Change to tomato on hover */
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Button styling */
+  .btn-primary {
+    background-color: #ff6347; /* Tomato color for buttons */
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff4500; /* Darker tomato for hover */
+    transform: scale(1.1); /* Slight zoom effect */
+  }
+  
+  /* Image Styling */
+  .card-img {
+    object-fit: cover;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  /* Carousel Styling */
+  .carousel-item {
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    opacity: 1;
+  }
+  
+  /* Loading Spinner Styling */
+  .spinner-border {
+    border-top-color: #ff6347; /* Matching color with theme */
+  }
+  
+  /* Error message styling */
+  .text-danger {
+    font-size: 1.1rem;
+    color: #ff4500; /* Error in tomato */
+  }
+  

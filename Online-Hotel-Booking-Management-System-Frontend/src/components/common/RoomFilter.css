@@ -1,0 +1,71 @@
+/* Container Styles */
+.room-filter-container {
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .room-filter-container:hover {
+    transform: scale(1.02); /* Slight scale effect on hover */
+  }
+  
+  /* Row Style */
+  .room-filter-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Input Group Label Styles */
+  .room-filter-label {
+    background-color: #f4f7fc;
+    color: #333;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  /* Select Dropdown Styles */
+  .room-filter-select {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 100%;
+    font-size: 1rem;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .room-filter-select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Button Styles */
+  .clear-filter-button {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .clear-filter-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px); /* Hover animation */
+  }
+  
+  .clear-filter-button:focus {
+    outline: none;
+  }
+  
